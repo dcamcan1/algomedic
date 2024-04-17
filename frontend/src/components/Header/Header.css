@@ -1,0 +1,22 @@
+.title {
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.divider {
+  margin: 10px;
+  width: 100%;
+  background-color: grey;
+}
+
+#algoLogo {
+  size: 3vw;
+  max-width: 500px;
+}

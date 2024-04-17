@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 0.8;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  color: #d3d3d3;
+  font-weight: 300;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  line-height: 1;
+}
+
+#returnButton {
+  margin-top: 10px;
+  max-height: 45px;
+  max-width: 40%;
+  margin-bottom: 30px;
+}

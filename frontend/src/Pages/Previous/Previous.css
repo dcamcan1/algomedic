@@ -1,0 +1,65 @@
+#delete {
+  max-height: 40px;
+  width: 80px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+#homeButton2 {
+  max-height: 45px;
+  max-width: 140px;
+  margin-bottom: 30px;
+}
+
+#details {
+  max-height: 40px;
+  width: 120px;
+}
+
+.tableWithGrid {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableWithGrid,
+.tableWithGrid th,
+.tableWithGrid td {
+  border: 1px solid black;
+}
+
+.tableWithGrid th,
+.tableWithGrid td {
+  padding: 15px;
+  text-align: left;
+}
+
+.tableWithGrid .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-cell {
+  min-width: 200px;
+}
+
+.dob-cell {
+  min-width: 110px;
+}
+
+.dispo-cell,
+.cat-cell {
+  max-width: 300px;
+}
+
+.date-cell {
+  max-width: 95px;
+}
+
+.action-cell {
+  max-width: 210px;
+}
+
+.myTable {
+  font-size: 15px;
+}
