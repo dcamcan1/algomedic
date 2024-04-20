@@ -50,11 +50,10 @@ const Result = ({
         marginTop={1}
       >
         <h4 style={{ marginBottom: 20, color: "green" }}>Disposition</h4>
-        <p>
-          {dispo.split("\n").map((line, index) => (
-            <p key={index}>{line}</p>
-          ))}
-        </p>
+
+        {dispo.split("\n").map((line, index) => (
+          <p key={index}>{line}</p>
+        ))}
       </Box>
     );
   };

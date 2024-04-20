@@ -6,7 +6,7 @@ automatic_scaling:
   max_instances: 15
 resources:
   cpu: 2
-  memory_gb: 1
+  memory_gb: 2
   disk_size_gb: 20 # adjust as needed
 entrypoint: gunicorn -b :$PORT app:app # replace with your entrypoint
 env_variables:
