@@ -12,3 +12,4 @@ entrypoint: gunicorn -b :$PORT app:app
 env_variables:
   FLASK_APP: "app.py"
   FLASK_ENV: "production"
+  PYTHONPATH: "C:\Python312"
